@@ -1,0 +1,79 @@
+.techfont {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.bigbrand {
+    font-size: 1em;
+}
+
+.centerstage {
+    margin: auto;
+}
+
+.post-date {
+    text-align: center;
+}
+
+.post-title {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+.post-title-list {
+  font-family: 'El Messiri', sans-serif; 
+}
+
+.post-content {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+}
+
+.btn-comment {
+    right: 0px;
+}
+
+.no-comments {
+  margin-top: 10px;
+}
+
+/*COLOR CHANGER*/
+/*Credit and Source: http://codepen.io/thapliyalshivam/pen/dvgXVO*/
+.loader{
+    filter:hue-rotate(0deg);
+    color: linear-gradient(45deg,#0f8,#08f);
+    animation:hue 5000ms infinite linear;
+  }
+  
+  @keyframes spinify {
+    0% {
+      transform: translate(0px,0px);
+  
+    }
+    33% {
+      transform: translate(0px,24px);
+      border-radius:100%;
+      width:10px;
+      height:10px;
+  
+    }
+     66% {
+      transform:translate(0px,-16px);
+    }
+  
+     88% {
+      transform:translate(0px,4px);
+  
+    }
+    100% {
+      transform:translate(0px,0px);
+    }
+  }
+  @keyframes hue{
+    0%{filter: hue-rotate(0deg);}
+    100%{filter:hue-rotate(360deg);}
+  
+  }
+  

@@ -1,0 +1,56 @@
+/* Fonts and basic styling */
+body {
+    font-family: sans-serif;
+    
+    margin: 0;
+    padding: 20px;
+  }
+  
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Navigation bar */
+  .navbar {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 10px 0;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  /* Customizations for navbar elements */
+  .bigbrand {
+    font-size: 24px;
+  }
+  
+  .techfont {
+    font-family: monospace;
+  }
+  
+  /* Logout button */
+  .logout-btn {
+    background-color: #5bc0de;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+
+  
+
+
+  
